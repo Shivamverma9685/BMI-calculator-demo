@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/relat">
+
+    <EditText
+        android:id="@+id/wtext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="517dp"
+        android:ems="8"
+        android:hint="Enter your weight"
+
+        android:inputType="number"
+        android:textSize="20dp"></EditText>
+
+    <EditText
+        android:id="@+id/htext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="428dp"
+        android:ems="8"
+        android:hint="enter your height"
+        android:inputType="number"
+        android:textSize="20dp"></EditText>
+
+    <EditText
+        android:id="@+id/inch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="352dp"
+        android:ems="8"
+        android:hint="enter inch "></EditText>
+
+    <TextView
+        android:id="@+id/Rtext3"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="197dp"
+        android:ems="8"
+        android:hint="result"
+        android:textAlignment="center"
+        android:textSize="30dp"></TextView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="273dp"
+        android:text="BUtton"
+        ></Button>
+
+</RelativeLayout>
